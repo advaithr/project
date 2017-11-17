@@ -21,7 +21,7 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div>
-        
+        <h1> this is layout</h1>
         <Table data={this.state.jsonData}/>
       </div>
     );
